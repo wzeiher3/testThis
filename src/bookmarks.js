@@ -153,7 +153,9 @@ let generateAddBookmark = function () {
           <br>
           <label for="newDesc" class="labels">Description: </label>
           <input id='newDesc' type="text"  placeholder="Description"><br>
-          <br><select id="newFilter" name="addFilter">
+          <br>
+          <label for="newFilter" class="labels">Rating: </label>
+          <select id="newFilter" name="addFilter">
             <option value="" selected="selected">Rating</option>            
             <option value="1">${generateStars(1)}</option>
             <option value="2">${generateStars(2)}</option>
